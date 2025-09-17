@@ -32,7 +32,7 @@
             double totalPrice;
             if (vat <= 0)
             { 
-                totalPrice = CalculatePrice(totalProducts, price);
+               totalPrice = CalculatePrice(totalProducts, price);
             }
             else
             {                 
