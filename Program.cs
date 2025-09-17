@@ -38,9 +38,7 @@
             {                 
                 totalPrice = CalculatePrice(totalProducts, price, vat / 100); 
             }
-
-            Console.WriteLine($"You bought {totalProducts} {product} for {totalPrice:F2}kr including VAT");
-                       
+            Console.WriteLine($"You bought {totalProducts} {product} for {totalPrice:F2}kr including VAT");                       
         }
         private static double CalculatePrice(
             int totalProducts, double price, double vat = 0.25)
